@@ -1,0 +1,62 @@
+title: Heng Lu
+tagline: Software Engineer
+description: >-
+  Personal blog about cloud infrastructure, Terraform, and developer tools.
+url: "https://ms-henglu.github.io"
+baseurl: ""
+
+github:
+  username: ms-henglu
+
+social:
+  name: Heng Lu
+  email: henglu718@gmail.com
+  links:
+    - https://github.com/ms-henglu
+    - https://www.linkedin.com/in/henglu1212/
+
+theme: jekyll-theme-chirpy
+
+avatar: https://avatars.githubusercontent.com/u/79895375?v=4
+
+toc: true
+
+comments:
+  provider: false
+
+paginate: 10
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
