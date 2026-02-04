@@ -1,0 +1,14 @@
+# Contact icons displayed at the bottom-left of the sidebar
+
+- type: github
+  icon: "fab fa-github"
+  url: "https://github.com/ms-henglu"
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/henglu1212/"
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true
+  url: "mailto:henglu718@gmail.com"

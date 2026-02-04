@@ -8,6 +8,9 @@ baseurl: ""
 github:
   username: ms-henglu
 
+twitter:
+  username: ""
+
 social:
   name: Heng Lu
   email: henglu718@gmail.com
